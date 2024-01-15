@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas Samba</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --brown: #783f03; 
+            --white: #ffffff;
+            --blue: #0800ff;
+            --lightblue: #4a86e8;
+            --grey: #999999;
+            --black: #000000;
+        }
+        body{
+            background-color: var(--lightblue);
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(14, 1fr);
+            grid-template-rows: repeat(28, 1fr);
+        }
+        #blanco{
+            background-color: #ffffff;
+            grid-area: 7/4/17/12;
+        }
+        #blancoultimo{
+            background-color: #ffffff;
+            grid-area: 13/3/14/4;
+        }
+        #azul{
+            background-color: #0800ff;
+            grid-area: 7/8/7/8;
+        }
+        #marron{
+            background-color: #783f03;
+            grid-area: 17/3/19/12;
+        }
+        #negro{
+            background-color: #000000;
+            grid-area: 7/11/10/12;
+        }
+        #gris{
+            background-color: #999999;
+            grid-area: 14/3/17/5;
+        }
+        #gris2{
+            background-color: #999999;
+            grid-area: 15/5/17/5
+        }
+        #gris3{
+            background-color: #999999;
+            grid-area: 16/6/16/6;
+        }
+        #gris4{
+            background-color: #999999;
+            grid-area: 12/5/13/5;
+        }
+        #gris5{
+            background-color: #999999;
+            grid-area: 11/6/12/6;
+        }
+        #gris6{
+            background-color: #999999;
+            grid-area: 10/7/11/7;
+        }
+        #gris7{
+            background-color: #999999;
+            grid-area: 9/8/10/8;
+        }
+        #azulclaro{
+            background-color: #4a86e8;
+            grid-area: 7/4/12/4;
+        }
+        #azulclaro2{
+            background-color: #4a86e8;
+            grid-area: 7/5/11/5;
+        }
+        #azulclaro3{
+            background-color: #4a86e8;
+            grid-area: 7/6/10/6
+        }
+        #azulclaro4{
+            background-color: #4a86e8;
+            grid-area: 7/7/9/7
+        }
+        #azulclaro5{
+            background-color: #4a86e8;
+            grid-area: 7/9/9/11;
+        }
+        #raya{
+            background-color: #000000;
+            grid-area: 13/6/13/6;
+        }
+        #raya2{
+            background-color: #000000;
+            grid-area: 12/7/12/7;
+        }
+        #raya3{
+            background-color: #000000;
+            grid-area: 14/7/14/7;
+        }
+        #raya4{
+            background-color: #000000;
+            grid-area: 11/8/11/8;
+        }
+        #raya5{
+            background-color: #000000;
+            grid-area: 13/8/13/8;
+        }
+        #raya6{
+            background-color: #000000;
+            grid-area: 15/8/15/8;
+        }
+        #raya7{
+            background-color: #000000;
+            grid-area: 12/9/12/9;
+        }
+        #raya8{
+            background-color: #000000;
+            grid-area: 14/9/14/9;
+        }
+        #raya9{
+            background-color: #000000;
+            grid-area: 13/10/13/10;
+        }
+        #nombre{
+            grid-area: 9/9/10/9;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+        }
+        #instagram{
+            grid-area: 9/10/10/10;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+        }
+        #apodo{
+            grid-area: 10/9/11/9;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+        }
+        #instaapodo{
+            grid-area: 10/10/11/10;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="blanco"></div>
+        <div id="blancoultimo"></div>
+        <div id="marron"></div>
+        <div id="azul"></div>
+        <div id="negro"></div>
+        <div id="gris"></div>
+        <div id="gris2"></div>
+        <div id="gris3"></div>
+        <div id="gris4"></div>
+        <div id="gris5"></div>
+        <div id="gris6"></div>
+        <div id="gris7"></div>
+        <div id="azulclaro"></div>
+        <div id="azulclaro2"></div>
+        <div id="azulclaro3"></div>
+        <div id="azulclaro4"></div>
+        <div id="azulclaro5"></div>
+        <div id="raya"></div>
+        <div id="raya1"></div>
+        <div id="raya2"></div>
+        <div id="raya3"></div>
+        <div id="raya4"></div>
+        <div id="raya5"></div>
+        <div id="raya6"></div>
+        <div id="raya7"></div>
+        <div id="raya8"></div>
+        <div id="raya9"></div>
+        <div id="nombre">andreaiqn</div>
+        <div id="instagram"><a href="https://www.instagram.com/andreaiqn/">@andreaiqn</a></div>
+        <div id="apodo">akasoho</div>
+        <div id="instaapodo"><a href="https://www.instagram.com/madebysoho/">@madebysoho</a></div>
+    </div>
+</body>
+</html>
